@@ -1,8 +1,7 @@
 function logUser(username){
-  console.log(username);
+  console.log(`user: ${username}`);
 };
 
-document.getElementById("result").innerHTML = logUser("user");
 
 
 
